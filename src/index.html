@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwind</title>
+    <style>
+        #wrapper{
+            width: 90%;  background-color: yellow; padding: 10px;
+            border: 2px solid black;
+            display: flex; gap: 10px; flex-direction: column;
+            justify-content: space-evenly; align-content: space-evenly;
+            height: 1500px; flex-wrap: wrap;
+        }
+        div[class ^= box] { 
+            width: 100px; height: 200px; background-color: green;
+            border: 5px groove black; color: white;
+            display: flex; align-content: center; flex-wrap: wrap;
+            justify-content: center;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="box-1"> Box 1 </div>
+        <div class="box-2"> Box 2 </div>
+        <div class="box-3"> Box 3 </div>
+        <div class="box-4"> Box 4 </div>
+        <div class="box-5"> Box 5 </div>
+        <div class="box-1"> Box 1 </div>
+        <div class="box-2"> Box 2 </div>
+        <div class="box-3"> Box 3 </div>
+        <div class="box-4"> Box 4 </div>
+        <div class="box-5"> Box 5 </div>
+        <div class="box-1"> Box 1 </div>
+        <div class="box-2"> Box 2 </div>
+        <div class="box-3"> Box 3 </div>
+        <div class="box-4"> Box 4 </div>
+        <div class="box-5"> Box 5 </div>
+        <div class="box-1"> Box 1 </div>
+        <div class="box-2"> Box 2 </div>
+        <div class="box-3"> Box 3 </div>
+        <div class="box-4"> Box 4 </div>
+        <div class="box-5"> Box 5 </div>
+        
+    </div>
+</body>
+</html>
